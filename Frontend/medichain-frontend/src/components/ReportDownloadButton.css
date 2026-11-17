@@ -1,0 +1,35 @@
+.report-download-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.report-download-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.report-download-button:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.report-download-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.report-download-error {
+  color: #dc2626;
+  font-size: 12px;
+}
